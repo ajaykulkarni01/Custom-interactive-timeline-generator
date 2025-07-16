@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+.main-header {
+  background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+  color: white;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.header-logo {
+  height: 60px;
+  margin-bottom: 0.5rem;
+}
+.subtitle {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  margin-top: 0.5rem;
+}
+
+.main-footer {
+  background: #282c34;
+  color: #bbb;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.fancy-upload-wrapper {
+  margin: 2rem 0 2.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+.fancy-upload-btn {
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(30, 60, 90, 0.08);
+  transition: background 0.2s, transform 0.2s;
+  outline: none;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.fancy-upload-btn:hover, .fancy-upload-btn:focus {
+  background: linear-gradient(90deg, #185a9d 0%, #43cea2 100%);
+  transform: translateY(-2px) scale(1.03);
+}
